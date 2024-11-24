@@ -17,6 +17,7 @@ The system ensures security by re-prompting for a valid PIN in case of incorrect
 💳 Account Operations:
 
 Check Account Balance
+
 ➤ Displays the current account balance.
 Withdraw Money
 
@@ -25,6 +26,7 @@ Withdraw Money
 ➤ Prevents withdrawal if the requested amount exceeds the account balance.
 
 Deposit Money
+
 ➤ Users can deposit money into their account, which is added to the balance.
 
 

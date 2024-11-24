@@ -19,8 +19,11 @@ The system ensures security by re-prompting for a valid PIN in case of incorrect
 Check Account Balance
 ➤ Displays the current account balance.
 Withdraw Money
+
 ➤ Allows users to withdraw a specified amount from their account.
+
 ➤ Prevents withdrawal if the requested amount exceeds the account balance.
+
 Deposit Money
 ➤ Users can deposit money into their account, which is added to the balance.
 
@@ -35,4 +38,5 @@ Exit
 
 
 🔄 Recurring Options:
+
 After completing any transaction, the system redirects the user back to the main menu for further operations or allows them to exit.

@@ -1,5 +1,3 @@
-package ATMmachine;
-
 import javafx.scene.layout.Background;
 
 import javax.sound.midi.SysexMessage;

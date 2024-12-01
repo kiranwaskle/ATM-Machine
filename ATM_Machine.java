@@ -1,5 +1,4 @@
 import javafx.scene.layout.Background;
-
 import javax.sound.midi.SysexMessage;
 import java.time.temporal.TemporalAmount;
 import java.util.Scanner;
@@ -7,7 +6,7 @@ import java.util.Scanner;
 class ATM
 {
     float balance;
-    int PIN = 3568;
+    int PIN = 3568; //we can encrypt this pin also
 
     public void checkpin()
     {
@@ -68,7 +67,7 @@ class ATM
     {
         System.out.println("Enter amount of money you want to withdraw");
         Scanner sc = new Scanner(System.in);
-        float amount = sc.nextInt();
+        float amount = sc.nextFloat();
 
         if(amount>balance)
         {
@@ -88,7 +87,7 @@ class ATM
         Scanner sc = new Scanner(System.in);
         float amount = sc.nextFloat();
         balance = balance + amount;
-        System.out.println("Money deposite successfully yeah!!");
+        System.out.println("Money deposited successfully yeah!!");
         menu();
     }
 }
